@@ -48,7 +48,8 @@ O design prioriza a elegância e a simplicidade para destacar o conteúdo.
 ```plaintext
 .
 ├── index.html       # Página principal
-├── style.css        # Arquivo de estilos
-├── script.js        # Arquivo de scripts JavaScript
+├── index-c.html     # Página secundária (conquistas) 
+├── style.css        # arquivo de estilos 
+├── style-c.css      # Arquivo de estilos (conquistas)       
 ├── assets/          # Imagens e outros recursos
 └── README.md        # Documentação do projeto
