@@ -45,9 +45,7 @@
                         <h2>CAIO GUIMARÃES ROCHA</h2>
                         <p>Sou Caio, <em>estudante de Ciência da Computação na Cesar School</em>, apaixonado por tecnologia. Busco sempre me aprimorar para me tornar um <strong>profissional de qualidade</strong>, criando soluções inovadoras. Além de estudar, gosto de <em>jogar futebol</em>, o que me ajuda a equilibrar a rotina. Estou sempre em busca de novos desafios e meu objetivo <strong>é me destacar na área de tecnologia, com a ambição de alcançar oportunidades internacionais.</strong></p>
                         <div class="btn-contato">
-                            <a href="index-c.html" target="_self">
-                                <button>Acesse as minhas conquistas</button>
-                            </a>
+                                <button id="btn-aperta">Aperte aqui</button>
                         </div>
                     </div><!--txt-topo-site-->
                     <div class="img-topo-site">
@@ -57,6 +55,21 @@
             </div> <!--Interface-->
         </section> <!--topo-do-site-->
     </main>
-    
+
+    <div class="mensagem" id="mensagem">
+        Seja bem-vindo ao meu site.
+    </div>
+
+    <script>
+        const botao = document.getElementById("btn-aperta");
+        const mensagem = document.getElementById("mensagem");
+
+        botao.addEventListener("click", () => {
+            mensagem.style.display = "block"; 
+            setTimeout(() => {
+                mensagem.style.display = "none";
+            }, 3000);
+        });
+    </script>
 </body>
 </html>
