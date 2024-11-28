@@ -102,7 +102,7 @@ section.topo-do-site .flex{
 }
 
 .mensagem {
-    display: none; /* Escondido por padrão */
+    display: none;
     position: fixed;
     top: 20px;
     left: 50%;
@@ -118,7 +118,6 @@ section.topo-do-site .flex{
     animation: fade-in 0.3s ease-in-out;
 }
 
-/* Animação de fade-in para a mensagem */
 @keyframes fade-in {
     from {
         opacity: 0;

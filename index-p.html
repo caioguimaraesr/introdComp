@@ -6,15 +6,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Biografia do Caio</title>
+    <title>Biografia do Caio - Projetos</title>
+    <link rel="stylesheet" href="style-p.css">
 </head>
 <body>
 
     <header>
         <div class="interface">
             <div class="logo">
-                <a href="https://www.cesar.school/ciencia-da-computacao/" target="_blank">
+                <a href="https://www.cesar.school/" target="_blank">
                     <img src="Captura_de_tela_2024-10-21_171305-removebg-preview.png" alt="site do cesar school">
                 </a>
             </div> <!--Logo-->
@@ -29,47 +29,42 @@
             </nav>
 
             <div class="btn-contato">
-                <a href="index-p.html" target="_self">
-                    <button>Projetos</button>
+                <a href="index.html" target="_self">
+                    <button>Home</button>
                 </a>
             </div> <!--btn-contato-->
         </div> <!--interface-->
     </header>
-    
+
     <main>
         <section class="topo-do-site">
             <div class="inteface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1>Estudante de Ciência da Computação, </h1>
-                        <h2>CAIO GUIMARÃES ROCHA</h2>
-                        <p>Sou Caio, <em>estudante de Ciência da Computação na Cesar School</em>, apaixonado por tecnologia. Busco sempre me aprimorar para me tornar um <strong>profissional de qualidade</strong>, criando soluções inovadoras. Além de estudar, gosto de <em>jogar futebol</em>, o que me ajuda a equilibrar a rotina. Estou sempre em busca de novos desafios e meu objetivo <strong>é me destacar na área de tecnologia, com a ambição de alcançar oportunidades internacionais.</strong></p>
-                        <div class="btn-contato">
-                                <button id="btn-aperta">Aperte aqui</button>
-                        </div>
+                        <h1>Meus Projetos<span>.</span> </h1>
                     </div><!--txt-topo-site-->
-                    <div class="img-topo-site">
-                        <img src="caio_rocha_pre-removebg-preview.png" alt="">
-                    </div><!--img-topo-site-->
                 </div><!--flex-->
             </div> <!--Interface-->
         </section> <!--topo-do-site-->
+
+        <section class="projeto">
+            <div class="container">
+                <div class="foto">
+                    <img src="Imagem do WhatsApp de 2024-11-27 à(s) 20.42.30_81d2f539.jpg" alt="Descrição da foto">
+                </div>
+                <div class="anotacoes">
+                    <div class="bloco">
+                        <h2>Monitor de Poluição Sonora<span>.</span></h2>
+                        <a href="index-c.html">Clique aqui</a>
+                    </div>
+                    <div class="bloco">
+                        <h2>PerifeRun</h2>
+                        <a href="index-crud.html">Clique aqui</a>
+                    </div>                    
+                </div>
+            </div>
+        <section>
+
     </main>
-
-    <div class="mensagem" id="mensagem">
-        Seja bem-vindo ao meu site.
-    </div>
-
-    <script>
-        const botao = document.getElementById("btn-aperta");
-        const mensagem = document.getElementById("mensagem");
-
-        botao.addEventListener("click", () => {
-            mensagem.style.display = "block"; 
-            setTimeout(() => {
-                mensagem.style.display = "none";
-            }, 3000);
-        });
-    </script>
 </body>
 </html>
